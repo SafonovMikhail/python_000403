@@ -1,3 +1,4 @@
+#000403_01_10_ex03_Div.py
 a = int(input())
 b = int(input())
 if b != 0:
@@ -8,7 +9,7 @@ else:
 if b != 0:
     print(a/b)
 else:
-    print("Деление невозможно, b = ", b)
+    # print("Деление невозможно, b = ", b)
     b = int(input("Введите число, отличное от нуля: "))
     if b == 0:
         print("Неверно")
